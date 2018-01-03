@@ -3,7 +3,7 @@ def oxford_comma(array)
 		array[0]
 	elsif array.size >2
 		last_item=array.pop
-		string = array.join(",")
+		string = array.join(", ")
 		string << ", and " + last_item
 	else
 		array.join(" and ")
