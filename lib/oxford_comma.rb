@@ -6,5 +6,5 @@ def oxford_comma(array)
 	else
 		string << " and " + last_item
 	end
-	
+
 end
